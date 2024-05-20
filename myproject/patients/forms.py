@@ -60,7 +60,7 @@ class PacientForm(forms.ModelForm):
             'last_name': forms.TextInput(
                 attrs={
                     'class': 'form-control',
-                    'placeholder': 'Guerrero',
+                    'placeholder': 'Ossa',
                     'minlength': '2',
                     'maxlength': '60',
                     'pattern': '[A-Za-z]*',
@@ -70,7 +70,7 @@ class PacientForm(forms.ModelForm):
             'surname': forms.TextInput(
                 attrs={
                     'class': 'form-control',
-                    'placeholder': 'Arteaga',
+                    'placeholder': 'Argaez',
                     'minlength': '2',
                     'maxlength': '60',
                     'pattern': '[A-Za-z]*',

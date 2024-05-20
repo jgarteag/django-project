@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #F4F6F6;
+            background-color: #34495E;
         }
     </style>
 {% endblock %}
@@ -17,12 +17,11 @@
 
 {% block content %}
 <div class="container mb-5">
-    <h1 class="text-center my-4">Paciente</h1>
     <form method="post">
         {% csrf_token %}
         <div class="card mb-4">
             <div class="card-header">
-                <h2>Formulario de Paciente</h2>
+                <h2>Paciente</h2>
             </div>
             <div class="card-body">
                 {{ pacient_form.as_p }}
@@ -30,14 +29,14 @@
         </div>
         <div class="card mb-4">
             <div class="card-header">
-                <h2>Formulario de Contacto con el Servicio de Salud</h2>
+                <h2>Contacto con el Servicio de Salud</h2>
             </div>
             <div class="card-body">
                 {{ contact_form.as_p }}
             </div>
         </div>
-        <button type="submit" class="btn btn-success">
-            <img src="{% static 'img/save.png' %}" alt="Guardar" style="width: 40px; height: 40px;">
+        <button type="submit" class="btn btn-primary">
+            <img src="{% static 'img/guardar.png' %}" alt="Guardar" style="width: 40px; height: 40px;">
         </button> 
     </form>
 </div>

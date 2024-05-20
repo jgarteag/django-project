@@ -7,24 +7,16 @@
     font-family: bebas;
     height: 80px;
     border: 0.1px solid #F8F9F9;
-    border-radius: 25px;
+    border-radius: 100px;
     padding: 5px;
     margin: 10px;
     background-color: #F8F9F9;
-    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    box-shadow: 0 0 4px rgb(30, 11, 150);
 }
 
 .footer-content {
     width: 100%;
     text-align: center;
-}
-
-img:hover {
-    transition-delay: 0.3;
-    transition:all .3s ease-in-out;
-    filter: blur(1px);
-    -webkit-transform:scale(0.9);
-    transform:scale(0.9);
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -43,7 +35,7 @@ img:hover {
 .card {
     background-color: #ECF0F1;
     transition: all 0.3s ease;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 20px rgba(23, 12, 241, 0.1);
 }
 .card:hover {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
