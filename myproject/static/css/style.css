@@ -1,0 +1,55 @@
+@font-face {
+    font-family: bebas;
+    src: url(../fonts/bebas.ttf);
+}
+
+.navbar {
+    font-family: bebas;
+    height: 80px;
+    border: 0.1px solid #F8F9F9;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #F8F9F9;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+.footer-content {
+    width: 100%;
+    text-align: center;
+}
+
+img:hover {
+    transition-delay: 0.3;
+    transition:all .3s ease-in-out;
+    filter: blur(1px);
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #0077cc;
+    transition: color 0.6s ease;
+    transition-delay: 0.3;
+    transition:all .3s ease-in-out;
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 1.2em;
+}
+
+.card {
+    background-color: #ECF0F1;
+    transition: all 0.3s ease;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.smaller-image {
+    width: 40%; /* Cambia esto al tamaño que quieras */
+}
